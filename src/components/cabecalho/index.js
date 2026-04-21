@@ -16,7 +16,7 @@ export default function Index() {
             const usuarioLogado=storage('usuario-logado');
             setUsuario(usuarioLogado.nome)
           }
-    },[])
+    })
 
     return (
         <header className='comp-cabecalho'>
